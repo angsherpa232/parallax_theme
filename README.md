@@ -1,6 +1,6 @@
 ### Free Basic Parallax theme
 
-Parallax_theme is a simple website theme with basic parallax effect that you can use for your next project for free. Right now the images are randomly changing based on source.unsplash.com.
+Parallax_theme is a simple static website with basic parallax effect that you can use for your next project for free. Right now the images are randomly changing based on source.unsplash.com.
 
 ### Getting started
 
