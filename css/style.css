@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4em;
+  color: #666;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+/* Title and section paragraph */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 4px;
+  transform: translate(-50%, -50%);
+}
+
+.text .border {
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text .border.trans {
+  background-color: transparent;
+}
+
+/* Images */
+/* 
+Simply change the image source inside the url
+parameter in order to use your own image.
+*/
+.image1,
+.image2,
+.image3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.image1 {
+  background-image: url("https://source.unsplash.com/1600x900/?nature, water");
+  height: 100%;
+}
+
+.image2 {
+  background-image: url("https://source.unsplash.com/1600x900/?nature,flower");
+  height: 450px;
+}
+
+.image3 {
+  background-image: url("https://source.unsplash.com/1600x900/?nature, river");
+  height: 450px;
+}
+
+/* Sections */
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section.section-lighter {
+  background: #f4f4f4;
+}
+
+.section.section-darker {
+  background: #282e34;
+  color: #fff;
+}
+
+/* Responsive */
+/* iPhone 6/7/8 */
+@media (max-width: 768px) {
+  .text {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .section {
+    padding: 50px 50px;
+  }
+
+  .section h2 {
+    font-size: 1rem;
+  }
+}
+
+/* iPhone 5/SE */
+@media (max-width: 500px) {
+  .text {
+    font-size: 13px;
+  }
+}
